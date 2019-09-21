@@ -1,0 +1,31 @@
+.grid {
+    width: auto;
+ }
+
+ [class*='col-'] {
+    float: right;
+ }
+ .col-2-12 {
+    width: 20%;
+ }
+ .col-10-12 {
+    width: 80%;
+ }
+ .col-1-4 {
+    width: 33.33%;
+ }
+ .module {
+    padding:  20px;
+    background: grey;
+ }
+ footer {
+    display: block;
+    width: auto;
+    grid-column: 1 / 12;
+ }
+ #logo {
+    width: 50%;
+ }
+ #owl {
+    width: 50%;
+ }
